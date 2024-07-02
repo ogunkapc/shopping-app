@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shopz/util/constants/color_constants.dart';
-import 'package:shopz/screens/main_screen/pages/products_screen.dart';
 import 'package:shopz/screens/main_screen/pages/checkout_screen.dart';
+import 'package:shopz/screens/main_screen/pages/products_screen.dart';
+import 'package:shopz/util/constants/color_constants.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -14,7 +14,7 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
   final List _pages = [
     const ProductsScreen(),
-    CheckoutScreen(),
+    const CheckoutScreen(),
   ];
 
   // function to update the selected index to enable page changes
