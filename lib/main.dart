@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopz/screens/main_screen/main_screen.dart';
+import 'package:shopz/screens/intro/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'ShopZ',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        fontFamily: 'Arial',
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF8E6CEF)),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MainScreen(),
+      home: const SplashScreen(),
     );
   }
 }
