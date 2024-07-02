@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopz/model/cart.dart';
 import 'package:shopz/screens/intro/splash_screen.dart';
 
 void main() {
@@ -10,15 +11,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'ShopZ',
-      theme: ThemeData(
-        fontFamily: 'Arial',
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF8E6CEF)),
-        useMaterial3: true,
+    return CartProvider(
+      // cart: Cart(),
+      child: MaterialApp(
+        title: 'ShopZ',
+        theme: ThemeData(
+          fontFamily: 'Arial',
+          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF8E6CEF)),
+          useMaterial3: true,
+        ),
+        debugShowCheckedModeBanner: false,
+        home: const SplashScreen(),
       ),
-      debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
     );
   }
 }

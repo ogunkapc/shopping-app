@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopz/constants/color_constants.dart';
+import 'package:shopz/util/constants/color_constants.dart';
 import 'package:shopz/screens/main_screen/pages/products_screen.dart';
 import 'package:shopz/screens/main_screen/pages/checkout_screen.dart';
 
@@ -30,9 +30,8 @@ class _MainScreenState extends State<MainScreen> {
       backgroundColor: ColorConstants.whiteColor,
       body: _pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
-        height: 60,
-        elevation: 0,
-        backgroundColor: Colors.transparent,
+        height: 55,
+        backgroundColor: ColorConstants.whiteColor,
         labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
         selectedIndex: _selectedIndex,
         onDestinationSelected: (index) {
