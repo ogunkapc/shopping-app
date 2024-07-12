@@ -168,7 +168,7 @@ class Cart {
       productId: 8,
       name: "V-Neck Pleated Chiffon Blouse",
       description:
-          "Soft Fabric: 100% Polyester.Soft and lightweight material,provides you a comfortable feminine touch and cooling feel Ruffle Front Design: Casual Loose style with Notch v neck,designer stylish pleats design with lantern long sleeve ,which you can rolled up to half sleeve or put it off,you can wear it daily or office wear Curved hem with slight pleats design can hide the hip prefectly, long sleeves can be rolled-up, match well with jeans, tight pants, casual pants, leggings and shorts, or you can pair it with black pants and high heels for office work Easy Pair: It goes well with everything,can be dressed up with dress pants or dressed down with skinny jeans and leggings",
+          "Soft Fabric: 100% Polyester. Soft and lightweight material, provides you a comfortable feminine touch and cooling feel Ruffle Front Design: Casual Loose style with Notch v neck, designer stylish pleats design with lantern long sleeve, which you can roll up to half sleeve or put it off, you can wear it daily or office wear Curved hem with slight pleats design can hide the hip perfectly, long sleeves can be rolled-up, match well with jeans, tight pants, casual pants, leggings and shorts, or you can pair it with black pants and high heels for office work Easy Pair: It goes well with everything, can be dressed up with dress pants or dressed down with skinny jeans and leggings.",
       category: "Women",
       price: 34.99,
       stockQuantity: 160,
